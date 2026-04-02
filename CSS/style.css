@@ -1,0 +1,35 @@
+form {
+    width: 220px;
+    min-height: 220px;
+    border-radius: 10px;
+    background-color: rgb(199, 216, 251);
+    padding: 10px;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+
+}
+.signup {
+    font-size: 11px;
+     display: flex;
+    justify-content: center;
+}
+.google {
+    font-size: 12px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+input {
+    width: 100%;
+}
+.or {
+    font-size: 16px;
+      display: flex;
+    justify-content: center;
+}
+ 
