@@ -9,7 +9,7 @@
    
 </head>
 <body>
-    <marquee behavior="scroll" direction="left"><h1>Hello World!💝  Remember to smile  Cause a smile can change everything ❤️</h1></marquee>
+    <marquee behavior="scroll" direction="left"><h1>Hello World!💝  Remember to smile  Cause a smile can change everything ❤️git </h1></marquee>
     <div class="wrapper">
     <form action="example.php">
    <h2 class="or"> Log in </h2>
@@ -18,7 +18,9 @@
    <label for="Email">Email: </label>
    <input type="email" name="email" id="email" placeholder="Enter your email"> <br>
    <label for="Password">Password: </label>
-   <input type="password" name="password" id="password" placeholder="Enter your password"> <br>
+<input type="password" name="password" id="password" placeholder="Enter your password"> <br>
+
+    <button type="submit" style="background-color: aquamarine;border: 0.2 solid black; border-radius: 5px; height: 25px;">Log in</button>
    <span class="or">or</span> <br>
    <span class="signup">Continue with Google <i class="bi bi-google" style="padding-left: 5px;"></i></span> <br>
    <span class="signup">You don't have an account? <a href="#">sign up</a></span>
@@ -26,6 +28,17 @@
 
    </form>
    </div>
-   <script src="./JS/script.js"></script>
+   <script src="./JS/script.js">
+    let username = document.getElementById("username");
+    let email = document.getElementById("email");
+    let password = document.getElementById("password");
+
+    function validateForm(){
+        if username.value ==    "" || email.value == "" || password.value == "" {
+            alert("Please fill in all fields");
+            return false;
+        }
+    }   
+   </script>
 </body>
 </html>
