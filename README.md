@@ -22,6 +22,7 @@ The following requirements define what the system shall do:
 * **FR-03: Notifications** – Send alerts to keep users informed and make sure they remain on time for their tasks.
 * **FR-04: Voice Assistant** – A built-in voice assistant to help users carry out their tasks hands-free.
 * **FR-05: Task Records** – The system keeps a record of all tasks and how the user carries them out to track progress.
+* **FR-06: AI assists** - The system shall have a build in AI which will work as an assistant to the user.
 
 ---
 
