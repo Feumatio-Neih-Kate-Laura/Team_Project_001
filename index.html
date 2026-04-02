@@ -36,6 +36,10 @@
     function validateForm(){
         if (username.value ==    "" || email.value == "" || password.value == "") {
             alert("Please fill in all fields");
+
+        if (username <= 3) {
+            alert("Username too short")
+        }
             return false;
         }
     }   
