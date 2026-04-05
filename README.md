@@ -31,4 +31,4 @@ The following requirements define what the system shall do:
 1.  **Input:** You list your tasks for the day.
 2.  **Organize:** The app builds a timetable for you so you don't have to plan it manually.
 3.  **Assist:** The voice assistant and notifications keep you moving through your list.
-4.  **Record:** At the end of the day, you can see a record of everything you accomplished.
+4.  **Record:** At the end of the day, you can see a record of everything you accomplished to facilitate account.
